@@ -5,7 +5,7 @@ provider "azurerm" {
 
 # Random String Resource
 resource "random_string" "myrandom" {
-  length = 5
+  length = 555
   upper = false 
   special = false
   number = false   
